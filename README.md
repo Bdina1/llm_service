@@ -19,7 +19,10 @@ Follow these steps to install the required dependencies:
 Then, install the llama-cpp-python package with specific CMake arguments:
 bash
 Copy code
+``` bash
 CMAKE_ARGS="-DLLAMA_CUBLAS=on" FORCE_CMAKE=1 pip install llama-cpp-python --no-cache-dir
+```
+
 Usage
 Provide instructions on how to use the project after installation.
 
